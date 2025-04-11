@@ -178,11 +178,11 @@ export default {
   padding: 1rem 2rem;
   background-color: black;
   border-radius: 20px; 
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); /* optional soft glow */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05); 
 }
 .home-grid {
   display: flex;
-  gap: 2rem; /* ⬅️ tighter horizontal space */
+  gap: 2rem; 
 }
 .left-column {
   flex: 1;
@@ -239,7 +239,7 @@ export default {
   object-fit: contain;
 }
 .section-heading {
-  margin-top: 0.5rem; /* ⬅️ was 1.5rem */
+  margin-top: 0.5rem; 
   margin-bottom: 1rem;
   font-size: 1.3rem;
   font-weight: bold;
@@ -249,7 +249,7 @@ export default {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  justify-content: center; /* ✅ centers them */
+  justify-content: center;
 }
 .event-card {
   background-color: #aaa;
